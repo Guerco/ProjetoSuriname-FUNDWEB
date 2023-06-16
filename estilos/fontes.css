@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 400px) {
+    .fonte-tamanho{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 401px) {
+    .fonte-tamanho{
+        font-size: 1rem;
+    }
+}
+
+/* Estilos para dispositivos de tela maior */
+@media (min-width: 701px) {
+    .fonte-tamanho{
+        font-size: 1.2rem;
+    } 
+}
